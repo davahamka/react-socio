@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 const PORT = process.env.PORT || 5000;
 
-const typeDefs = require("./src/typeDefs/typeDefs");
-const resolvers = require("./src/resolvers");
+const typeDefs = require("./server/typeDefs/typeDefs");
+const resolvers = require("./server/resolvers");
 
 const pubsub = new PubSub();
 
