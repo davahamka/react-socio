@@ -9,6 +9,7 @@ const resolvers = require("./src/resolvers");
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  context: ({ req }) => ({ req }),
 });
 
 mongoose
