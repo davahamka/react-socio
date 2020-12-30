@@ -1,2 +1,2 @@
 # react-socio
-Social Media App build with React, NodeJS, Mongo, and GraphQL
+Social Media App built with React, NodeJS, Mongo, and GraphQL
